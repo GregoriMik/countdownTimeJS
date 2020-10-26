@@ -1,0 +1,49 @@
+<!-- showTime -->
+<!-- Program wyświetla aktualną godzinę na ekranie -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Odliczanied</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      line-height: 100px;
+      text-align: center;
+      font-family: arial;
+    }
+
+    p {
+      font-size: 30px;
+      font-weight: bold;
+      padding: 0;
+    }
+    h1{
+      font-size: 40px;
+    }
+  </style>
+
+  <body>
+    <p>Statek doleci do Jowisza za:</p>
+    <h1>
+      <span class="d">.</span> d: 
+      <span class="h">.</span> h:
+      <span class="m">.</span> m: 
+      <span class="s">.</span> s:
+    </h1>
+    <!-- <div class="clock">Godzina: <span></span></div> -->
+  </body>
+  <script src="js/main.js"></script>
+</html>
